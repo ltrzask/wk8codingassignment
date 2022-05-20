@@ -1,0 +1,156 @@
+/*Comments */
+body {
+    background-color: #dad7cd;
+}
+
+.main {
+    width: 80%; /*width of the main div*/
+    margin: 2rem auto; 
+    background-color: #a3b18a;
+    padding: 2rem; 
+    text-align: center;
+}
+h1 { 
+    color: #26392f;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    
+}
+.nav {
+    background-color: #26392f;
+    overflow: hidden;
+    color: #aaa;
+}
+.nav a { /*the links look much better*/
+    float: left;
+    color: #cfe1b9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 1rem;
+}
+
+.nav a:hover { /*When the mouse hovers over the links they will change colors */
+    background-color:#4f664e;
+    color: black;
+}
+
+.nav a:visited { /*used to mark links you have clicked already*/
+    color: #dad7cd;
+}
+
+.top5 {
+    text-align: center;
+    margin-top: 1rem;
+    overflow: auto;
+   
+}
+
+.top5 img{
+    float: right;
+    margin: 2rem 10rem 2rem 5rem;
+}
+
+h2 {
+    color: #26392f;
+    margin: 2rem 2rem 2rem 5rem;
+}
+
+h3 {
+    margin: 10px 0px;
+}
+ol { /*Put a border around the list*/
+    list-style-position: inside;
+    border-style: solid;
+    border-color: #26392f;
+    border-width: 5px;
+    width: 30%;
+    color: #26392f;
+    margin-left: 10rem;
+    margin-right: auto;
+    padding-left: 0%;
+    
+}
+
+li{ /*colored the text inside the list*/
+margin: 3px 3px 3px 5px;
+color: #26392f;
+}
+
+.footer { /*added the footer to every page, just looked better*/
+    margin-top: 5%;
+    background-color: #26392f;
+    color: #dad7cd;
+}
+.footer a {
+    color: #cfe1b9;
+}
+
+.footer a:visited { /*used to mark links you have clicked already*/
+    color: #dad7cd;
+}
+.adopt{
+    color: #26392f;
+    
+}
+.adopt img { /*love the round images for the kitties*/
+    border-radius: 100%;
+    padding: 2rem;
+}
+
+div.form { /*only way I could get the form to center*/
+    display: block;
+    text-align: center;
+}
+
+form { 
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: #dad7cd;
+    border: solid 2px #26392f;
+    padding: 1rem;
+    text-decoration: solid;   
+}
+
+/*Made the submit button pretty*/
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4f664e;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-decoration: none;
+    margin: 2px 1px;
+    cursor: pointer;
+  }
+
+.contact {/*centered the table with some padding*/
+    width: 18%;
+    margin-left: auto;
+  margin-right: auto;
+  padding: 3rem;
+  color: #26392f;
+    
+}
+
+td, th { /*stylized the table*/
+    width: 5rem;
+    height: 2rem;
+    border: 2px solid #26392f;
+    text-align: center;
+    color: #26392f;
+  }
+
+  th { /*made the top row of the table darker*/
+    background: #4f664e;
+    border-color: #26392f;
+  }
+ 
+
+  #bye { /*center the Gif, used a id for this one because it was the only one*/
+    float: inline-end;
+    padding: 2rem 0 0 0;
+    color: #26392f;
+  }

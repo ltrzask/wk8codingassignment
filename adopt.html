@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!--link to CSS file-->
+        <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="main">
+        <!--Start with a headline-->
+        <h1>Adopt don't shop!</h1>
+        <!--Create a shortcut to each page-->
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="adopt.html">Adopt</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="adopt">
+             <!--Created 3 adoptees with picture and a description-->
+            <h3>These are our current cats available to adopt:</h3>
+            <img height="300px" src="https://parade.com/wp-content/uploads/2021/09/black-cat-breeds.jpg" alt="Picture of a black cat">
+            <p>Binx is a 2 year old male. He loves chin scritches, the wand toy and tuna treats. </p>
+            <!--Used height to make the pictures fit better on the page and look more uniform-->
+            <img height="300px" src="https://www.rd.com/wp-content/uploads/2021/05/GettyImages-1286283054.jpg" alt="Picture of an orange cat">
+            <p>Marmalade is a 6 year old male. He enjoys napping in the sun, fuzzy mice toys and being brushed.</p>
+
+            <img height="300px" src="https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=face&w=2000&h=1333&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2020%2F07%2F25%2Fcalico-cat-cat-tree-494662092-2000.jpg" alt="Picture of a calico cat.">
+            <p>Callie is a 3 year old female. She loves warm laps, plastic spring toys and chicken treats.</p>
+            
+        </div>
+        <div class="form">
+            <!--Need a form to fill out if they want to try and adopt-->
+            <h2>If you feel in love and want to adopt, please fill out this form:</h2>
+            <form>
+                First Name:<input type="text" name="firstName"> <!--Didn't like the placeholder for this form-->
+                <br>
+                Last Name:<input type="text" name="lastName">
+                <br>
+                Phone Number:<input type="text" name="phone">
+                <br>
+                Email: <input type="text" name="email"> <!--Added Email-->
+                <br>
+                Name of the cat you would like to adopt:<br>
+                <input type="text" name="cat" placeholder="Cat's Name">
+                <br>
+                <p>Can you have pets where you live?</p>
+                <input type="radio" name="answer" id="yes">Yes <!--Figured out I had to name the 2 radio buttons the same to get only one to be selected-->
+                <input type="radio" name="answer" id="no">No
+                <br>
+                <p>Having a pet is a big responsibility, are you sure you are ready?</p><!--gotta ask those hard questions-->
+                <input type="radio" name="ready" id="I am">I am
+                <input type="radio" name="ready" id="Not yet">Not yet
+                <br>
+                <p>Please make sure all information is correct before submitting.</p>
+                <input type="submit" value="Submit"><!--Can't forget the submit button for our form-->
+            </form>
+        </div>
+        <div class="footer">
+            <!--Added another link so they wouldn't have to scroll all the way back up the the top-->
+           <p>If you have any questions or concerns please click on the <a href="contact.html">contact</a> link to see how to get in touch with us.</p>
+        </div>
+    </div>
+</body>
+</html>
